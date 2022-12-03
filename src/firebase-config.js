@@ -1,13 +1,12 @@
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_CONFIG_API_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_CONFIG_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_FIREBASE_CONFIG_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_FIREBASE_CONFIG_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_CONFIG_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_FIREBASE_CONFIG_APP_ID,
-  measurementId: process.env.REACT_APP_FIREBASE_CONFIG_MEASUREMENT_ID,
+  apiKey: "AIzaSyCBAlXOUCRNGfjnMBEMsdZ2KCAXIa-yT24",
+  authDomain: "food-ordering-e8c26.firebaseapp.com",
+  projectId: "food-ordering-e8c26",
+  storageBucket: "food-ordering-e8c26.appspot.com",
+  messagingSenderId: "658597945464",
+  appId: "1:658597945464:web:9d67e2fee86c0c505a0d8d"
 };
 
 export const app = initializeApp(firebaseConfig);
