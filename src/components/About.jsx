@@ -19,7 +19,7 @@ export const About = () => {
         <div className="flex items-center justify-center">
           <img
             src={aboutImage}
-            alt=""
+            alt="about imgage"
             className="w-[400px] h-[400px] object-cover"
           />
         </div>
